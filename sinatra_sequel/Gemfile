@@ -1,0 +1,14 @@
+source 'http://rubygems.org'
+
+# load environment variables from .env file
+gem 'dotenv'
+
+# using sinatra for handling routes and response
+gem 'sinatra'
+gem 'sinatra-contrib'
+
+# using sequel ORM
+gem 'sequel'
+
+# rake
+gem 'rake'
